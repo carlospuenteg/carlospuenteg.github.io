@@ -112,6 +112,28 @@ body {
             margin-right: 10px;
             font-size: 24px;
         }
+    #hero .linkedin-link {
+        color: #fff;
+        background-color: #0A66C2;
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid #0A66C2;
+        padding: 10px 20px;
+        border-radius: 25px;
+        transition: background-color 0.3s, color 0.3s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+    }
+        #hero .linkedin-link:hover {
+            background-color: #fff;
+            color: #0A66C2;
+            transform: translateY(-3px);
+        }
+        #hero .linkedin-link i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        
 
 .content-section {
     padding: 60px 0;
