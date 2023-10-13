@@ -91,6 +91,27 @@ body {
             margin-right: 10px;
             font-size: 24px;
         }
+    #hero .github-link {
+        color: #fff;
+        background-color: #24292E;
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid #24292E;
+        padding: 10px 20px;
+        border-radius: 25px;
+        transition: background-color 0.3s, color 0.3s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+    }
+        #hero .github-link:hover {
+            background-color: #fff;
+            color: #24292E;
+            transform: translateY(-3px);
+        }
+        #hero .github-link i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
 
 .content-section {
     padding: 60px 0;
@@ -161,6 +182,56 @@ body {
     color: #1DA1F2;
     font-weight: bold;
 }
+
+#links .ebird-link {
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #4da703;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+    #links .ebird-link:hover {
+        transform: translateY(-3px);
+    }
+    #links .ebird-link:hover .ebird-e {
+        color: #212121; /* Swap "e" color on hover */
+    }
+    #links .ebird-link:hover .ebird-bird {
+        color: #4da703; /* Swap "Bird" color on hover */
+    }
+    #links .ebird-e {
+        color: #4da703;
+    }
+    #links .ebird-bird {
+        color: #212121; /* "Bird" text color */
+    }
+    #links a {
+        color: #212121;
+        text-decoration: none;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+#links .codewars-link {
+    color: #2a2a2e;
+    background-color: #f05655; 
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #2a2a2e;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+    #links .codewars-link:hover {
+        background-color: #e04c4a;
+        color: #fff;
+        transform: translateY(-3px);
+    }
 
 footer {
     background-color: #333;
