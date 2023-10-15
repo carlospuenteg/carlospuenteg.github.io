@@ -171,7 +171,7 @@ body {
     background: #e9f2f9;
     border: 2px solid #2a4d69;
 }
-.birdes-btn:hover {
+#projects .birdes-btn:hover {
     background-color: #2a4d69;
     color: #ffffff;
 }
